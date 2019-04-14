@@ -11,7 +11,7 @@ Go 初学者的学习笔记
 - [ ] 并发;  
 
 
-## 学习连接
+## 学习地址
 - [Go 初学者成长之路](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/new_gopher_tips.md)
 - [菜鸟教程](https://www.runoob.com/go/go-environment.html)
 
