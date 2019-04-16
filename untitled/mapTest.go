@@ -59,7 +59,8 @@ func main() {
 	/*
 			make、new操作
 
-			make用于内建类型（map、slice 和channel）的内存分配。
-		    new用于各种类型的内存分配。
+			make用于内建类型（map、slice 和channel）的内存分配。 并且返回一个有初始值(非零)的T类型，而不是*T。
+		    new用于各种类型的内存分配。  new返回指针。
 	*/
+
 }
