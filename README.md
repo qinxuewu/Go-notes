@@ -5,11 +5,21 @@ Go 初学者的学习笔记
 # 任务列表
 - [x] Go的安装以及变量、常量;
 - [x] Go内置类型; 
-- [ ] 流程和函数;
+- [x] 流程和函数;
 - [ ] 面向对象;  
 - [ ] interface;  
 - [ ] 并发;  
-
+- [ ] Web基础
+- [ ] 访问数据库
+- [ ] session和数据存储
+- [ ] 文本文件处理
+- [ ] Web服务
+- [ ] 安全与加密
+- [ ] 国际化和本地化
+- [ ] 错误处理，调试和测试
+- [ ] 部署与维护
+- [ ] 如何设计一个Web框架　
+- [ ] 扩展Web框架
 
 ## 学习地址
 - [Go 初学者成长之路](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/new_gopher_tips.md)
