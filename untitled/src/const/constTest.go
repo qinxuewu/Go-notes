@@ -1,4 +1,4 @@
-package main   //表示一个可独立执行的程序
+package main //表示一个可独立执行的程序
 import "fmt"
 
 /**
