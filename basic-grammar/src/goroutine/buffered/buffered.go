@@ -1,5 +1,6 @@
 package main
 
+
 import "fmt"
 
 /**
@@ -22,6 +23,8 @@ func main() {
 
 	c1 := make(chan int, 10)
 	go fibonacci(cap(c1), c1)
+
+	// for i := range c能够不断的读取channel里面的数据，直到该channel被显式的关闭
 	for i := range c1 {
 		fmt.Println(i)
 	}
@@ -36,5 +39,7 @@ func fibonacci(n int, c chan int) {
 		c <- x
 		x, y = y, x+y
 	}
+	//记住应该在生产者的地方关闭channel，而不是消费的地方去关闭它，这样容易引起panic
 	close(c)
 }
+
