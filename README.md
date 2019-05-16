@@ -11,8 +11,8 @@ Go 初学者的学习笔记
 - [x] 并发;  
 - [x] Web基础
 - [x] 访问数据库
-- [ ] session和数据存储
-- [ ] 文本文件处理
+- [x] session和数据存储
+- [x] 文本文件处理
 - [ ] Web服务
 - [ ] 安全与加密
 - [ ] 国际化和本地化
@@ -23,6 +23,10 @@ Go 初学者的学习笔记
 
 ## 学习地址
 - [Go 初学者成长之路](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/new_gopher_tips.md)
+- [Go Web编程](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md )
+- [Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example)
+- [Go语言圣经](http://shouce.jb51.net/gopl-zh/ch1/ch1-01.html)
+- [Go语言中文网](https://studygolang.com/topics)
 - [菜鸟教程](https://www.runoob.com/go/go-environment.html)
 
 
