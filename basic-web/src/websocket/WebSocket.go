@@ -13,13 +13,13 @@ import (
 )
 
 
-func  Echo(w *webscoker.Conn)  {
+func  Echo(ws *websocket.Conn)  {
 	var  err error
 
 	for  {
 		var reply string
 
-		if err=websocket.Message.Recevie(ws,&reply); err!=nil{
+		if err=websocket.Message.Receive(ws,&reply); err!=nil{
 			fmt.Println("Cat receive")
 		}
 		fmt.Println("接收到客户端发来的消息 :"+reply)

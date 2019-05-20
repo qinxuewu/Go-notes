@@ -87,6 +87,7 @@ func main()  {
 	e1, err := strconv.Atoi("1023")
 	checkError(err)
 	fmt.Println(a1, b1, c1, d1, e1)   //false 123.23 1234 12345 1023
+
 }
 
 
