@@ -18,8 +18,8 @@ Go 初学者的学习笔记
 - [x] 国际化和本地化
 - [x] 错误处理，调试和测试
 - [x] 部署与维护
-- [ ] 如何设计一个Web框架　
-- [ ] 扩展Web框架
+- [ ] beego　
+
 
 ## 学习地址
 - [Go 初学者成长之路](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/new_gopher_tips.md)
