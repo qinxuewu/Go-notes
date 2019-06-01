@@ -31,3 +31,5 @@ func (c *ObjectController)  Blog() {
 	fmt.Printf("%v\n", mapValue)
 	c.Ctx.WriteString("Blog............"+mapValue["0"])
 }
+
+

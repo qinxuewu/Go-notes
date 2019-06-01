@@ -100,6 +100,13 @@ func init() {
 	beego.Include(&controllers.CMSController{})
 
 
+	// 文件上传
+	//  http://localhost:8080/file
+	beego.Router("/file", &controllers.FileController{},"get:Get;post:Uplod")
+
+
+	// http://localhost:8080/session
+	beego.Router("/session",&controllers.SessionController{})
 
 
 }
