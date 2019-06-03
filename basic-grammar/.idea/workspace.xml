@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="02f787c0-dc10-43e1-b8e3-59cb1a12808e" name="Default" comment="go基础,并发的使用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-web/src/rest/restful.go" beforeDir="false" afterPath="$PROJECT_DIR$/../basic-web/src/rest/restful.go" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,46 +51,59 @@
     <session id="-2085303654">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="conf" value="7" />
-          <entry key="go" value="98" />
+          <entry key="conf" value="8" />
+          <entry key="go" value="143" />
           <entry key="js" value="1" />
-          <entry key="tpl" value="5" />
+          <entry key="tpl" value="11" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="98" />
+          <entry key="Go" value="143" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="28" />
-          <entry key="go" value="1078" />
-          <entry key="tpl" value="28" />
+          <entry key="go" value="1934" />
+          <entry key="tpl" value="34" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="1078" />
-          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="Go" value="1934" />
+          <entry key="PLAIN_TEXT" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/go/src/basic-beego/models/hello.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,6 +111,14 @@
         <option value="Go File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RestController</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\admin\go\src\basic-beego</dir>
+    </dirStrings>
   </component>
   <component name="GOROOT" path="F:/golang/go" />
   <component name="Git.Settings">
@@ -112,12 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.go" />
-        <option value="$PROJECT_DIR$/test2.go" />
-        <option value="$PROJECT_DIR$/constTest.go" />
-        <option value="$PROJECT_DIR$/operator/operatorTest.go" />
-        <option value="$PROJECT_DIR$/method/methodOverrideTest.go" />
-        <option value="$PROJECT_DIR$/method/override/methodOverrideTest.go" />
         <option value="$PROJECT_DIR$/method/extends/methodExtendsTest.go" />
         <option value="$PROJECT_DIR$/method/methodExtendsTest.go" />
         <option value="$PROJECT_DIR$/method/methodTest.go" />
@@ -153,15 +169,22 @@
         <option value="$PROJECT_DIR$/src/goroutine/select/main.go" />
         <option value="$PROJECT_DIR$/../basic-beego/controllers/default.go" />
         <option value="$USER_HOME$/go/src/basic-beego/controllers/sinatra.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/controllers/object.go" />
         <option value="$USER_HOME$/go/src/basic-beego/controllers/rest.go" />
         <option value="$USER_HOME$/go/src/basic-beego/controllers/cms.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/routers/router.go" />
         <option value="$USER_HOME$/go/src/basic-beego/controllers/base.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/main.go" />
         <option value="$USER_HOME$/go/src/basic-beego/conf/app.conf" />
         <option value="$USER_HOME$/go/src/basic-beego/views/index.tpl" />
         <option value="$USER_HOME$/go/src/basic-beego/controllers/default.go" />
+        <option value="$PROJECT_DIR$/../basic-web/src/rest/restful.go" />
+        <option value="$USER_HOME$/go/src/basic-beego/controllers/json.go" />
+        <option value="$USER_HOME$/go/src/basic-beego/controllers/object.go" />
+        <option value="$USER_HOME$/go/src/basic-beego/routers/router.go" />
+        <option value="$USER_HOME$/go/src/basic-beego/controllers/validation.go" />
+        <option value="$USER_HOME$/go/src/basic-beego/validation.go" />
+        <option value="$USER_HOME$/go/src/basic-beego/controllers/error.go" />
+        <option value="$USER_HOME$/go/src/basic-beego/views/404.tpl" />
+        <option value="$USER_HOME$/go/src/basic-beego/main.go" />
+        <option value="$USER_HOME$/go/src/basic-beego/models/hello.go" />
       </list>
     </option>
   </component>
@@ -180,11 +203,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="435" />
-    <option name="y" value="205" />
-    <option name="width" value="1292" />
-    <option name="height" value="638" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="96" />
+    <option name="y" value="104" />
+    <option name="width" value="1687" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -194,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,28 +227,29 @@
             <path>
               <item name="basic-grammar" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-beego" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-beego" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-beego" type="462c0819:PsiDirectoryNode" />
-              <item name="routers" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-beego" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="beego.orm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +257,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559051592248" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559559045535" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -242,22 +265,24 @@
     <property name="last_opened_file_path" value="$USER_HOME$/go/src/basic-beego" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.14648438" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\go\src\basic-beego\views" />
+      <recent name="C:\Users\admin\go\src\basic-beego" />
+      <recent name="C:\Users\admin\go\src\basic-beego\static" />
+      <recent name="F:\ideWork\githubWork\Go-notes\basic-beego" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/method" />
       <recent name="$PROJECT_DIR$/src/struct" />
       <recent name="$PROJECT_DIR$/src/processes" />
       <recent name="$PROJECT_DIR$/src/slice" />
       <recent name="$PROJECT_DIR$/src/range" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\go\src\basic-beego\static" />
-      <recent name="F:\ideWork\githubWork\Go-notes\basic-beego" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,34 +297,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build hello.go">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="go build buffered.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basic-grammar" />
+    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="basic-beego" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/goroutine/buffered/buffered.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basic-grammar" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/goroutine/select/main.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basic-web" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/../basic-web/src/beego.orm/test02/main.go" />
+      <filePath value="$USER_HOME$/go/src/basic-beego/models/hello.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -316,6 +325,22 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/../basic-beego/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build restful.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="basic-web" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/../basic-web/src/rest/restful.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build validation.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="basic-beego" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$USER_HOME$/go/src/basic-beego/controllers/validation.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -345,19 +370,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.hello" />
-      <item itemvalue="Go Build.go build buffered.go" />
-      <item itemvalue="Go Build.go build main.go (1)" />
-      <item itemvalue="Go Build.go build main.go (3)" />
       <item itemvalue="Go Build.go build main.go (4)" />
       <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build restful.go" />
+      <item itemvalue="Go Build.go build validation.go" />
+      <item itemvalue="Go Build.go build hello.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build hello.go" />
+        <item itemvalue="Go Build.go build validation.go" />
+        <item itemvalue="Go Build.go build restful.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (4)" />
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build buffered.go" />
       </list>
     </recent_temporary>
   </component>
@@ -380,6 +405,7 @@
       <workItem from="1559006992559" duration="698000" />
       <workItem from="1559022021870" duration="10171000" />
       <workItem from="1559048490100" duration="3006000" />
+      <workItem from="1559553263475" duration="5685000" />
     </task>
     <task id="LOCAL-00001" summary="go基础,并发的使用">
       <created>1555991867355</created>
@@ -406,12 +432,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37053000" />
+    <option name="totallyTimeSpent" value="42738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="96" y="104" width="1687" height="915" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14935464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -420,14 +447,14 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.33631286" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.21750663" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29385474" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35278514" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.036871508" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3039106" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -460,170 +487,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="beego框架学习" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/go/src/strconv/itoa.go" />
-    <entry file="file://$PROJECT_DIR$/src/interface/test2/test2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="66" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface/test4/test4.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface/test3/test3.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface/test1/test1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="60" selection-start-line="60" selection-end-line="62" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface/test6.go" />
-    <entry file="file://$PROJECT_DIR$/src/interface/test5/test5.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/goroutine/mian.go" />
-    <entry file="file://$PROJECT_DIR$/src/interface/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-930">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface/test6/test6.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/slice/sliceTest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1067">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/struct/structTest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processes/processes.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026">
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/range/rangeTest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/method/extends/mian.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/method/override/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/function/functionTest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2976">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/goroutine/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/goroutine/channels/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/golang/go/src/time/sleep.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="160" column="24" lean-forward="true" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../basic-web/src/beego.orm/test02/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../basic-web/src/beego.orm/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/arrayTest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/const/constTest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/goroutine/buffered/buffered.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/goroutine/select/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-20">
@@ -702,40 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/rest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="15" column="40" selection-start-line="15" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/sinatra.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/cms.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#20#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/base.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding>
-            <element signature="e#20#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/base.go" />
     <entry file="file://$USER_HOME$/go/src/github.com/astaxie/beego/controller.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
@@ -743,37 +573,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#14#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/object.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/methodTest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1444">
           <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/default.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/go/src/basic-beego/conf/app.conf">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/beego.orm/test02/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding>
+            <element signature="e#15#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/cookie/main.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/session/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#95#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/rpc/httprpc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/socket/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <folding>
+            <element signature="e#87#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/socket/client.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/upload/main.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/regexp/regexp.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/rest/restful.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="11" />
+          <folding>
+            <element signature="e#98#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/sqlite/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/json/test2/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/json/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" selection-start-line="21" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/xml/server.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/xml/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/rest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -784,27 +699,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/cms.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/object.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/json.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/file.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/validation.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#21#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/session.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/views/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/views/404.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/views/501.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/validation.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/astaxie/beego/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/go/src/basic-beego/routers/router.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="1302">
+          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
           <folding>
             <element signature="e#17#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/views/index.tpl">
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/sinatra.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <element signature="e#21#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/default.go">
+    <entry file="file://$USER_HOME$/go/src/basic-beego/views/dberror.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/error.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="206">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#21#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/beego.orm/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="10" lean-forward="true" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/basic-beego/models/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
         </state>
       </provider>
     </entry>

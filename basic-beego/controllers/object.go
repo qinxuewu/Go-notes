@@ -32,4 +32,3 @@ func (c *ObjectController)  Blog() {
 	c.Ctx.WriteString("Blog............"+mapValue["0"])
 }
 
-

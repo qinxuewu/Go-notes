@@ -91,7 +91,7 @@ func init() {
 	 */
 	beego.AutoRouter(&controllers.ObjectController{})
 
-
+	beego.AutoRouter(&controllers.JsonController{})
 	// 注册注解路由
 	/**
 	  http://localhost:8080/staticblock/key13
