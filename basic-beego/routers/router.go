@@ -9,6 +9,8 @@ func init() {
 	// 固定路由也就是全匹配的路由
     beego.Router("/", &controllers.MainController{})
 
+	beego.Router("/html", &controllers.HtmlController{})
+
     //固定路由 指定访问的请求类型  http://localhost:8080/admin
 	beego.Router("/admin", &controllers.MainController{},"get:Get;post:Post")
 

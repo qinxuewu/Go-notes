@@ -27,6 +27,8 @@ func main() {
 
 	log.Close()
 
+	beego.SetStaticPath("/static","static")
+
 
 	beego.Run()
 }

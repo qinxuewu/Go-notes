@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>beego 模板语法</title>
+    <link rel="stylesheet" href="static/layui/css/layui.css">
+</head>
+<body>
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+    <legend>{{.Title}}</legend>
+</fieldset>
+<ul class="layui-timeline">
+    <li class="layui-timeline-item">
+        <i class="layui-icon layui-timeline-axis"></i>
+        <div class="layui-timeline-content layui-text">
+            <h3 class="layui-timeline-title">支持嵌套的循环</h3>
+            <p>
+            {{if .IsHome}}
+            dadsa
+            {{else}}
+                {{if .IsAbout}} dasdsad {{end}}
+            {{end}}
+            </p>
+            <p>
+            {{if .IsHome}}
+                6666666
+            {{else if .IsAbout}}
+                77777
+            {{else}}
+                88888
+            {{end}}
+            </p>
+        </div>
+    </li>
+    <li class="layui-timeline-item">
+        <i class="layui-icon layui-timeline-axis"></i>
+        <div class="layui-timeline-content layui-text">
+            <h3 class="layui-timeline-title">range ... end</h3>
+            <p>
+                pipeline 支持的类型为 array, slice, map, channel<br>
+                range 循环内部的 . 改变为以上类型的子元素<br>
+                对应的值长度为 0 时，range 不会执行，. 不会改变<br>
+                使用 . 来访问当前位置的上下文<br>
+                使用 $ 来引用当前模板根级的上下文<br>
+                使用 $var 来访问创建的变量<br>
+            </p>
+            <ul>
+                {{range .Pages}}
+                    <li>  {{.Num}} of {{$.Total}}</li>
+                {{end}}
+            </ul>
+        </div>
+    </li>
+    <li class="layui-timeline-item">
+        <i class="layui-icon layui-timeline-axis"></i>
+        <div class="layui-timeline-content layui-text">
+            <h3 class="layui-timeline-title">使用创建的变量，在这里和 go 中的 range 用法是相同的。</h3>
+            <ul>
+            {{range $index, $elem := .Pages}}
+                 <li> {{$index}} - {{$elem.Num}} - {{.Num}} of {{$.Total}}</li>
+            {{end}}
+
+            </ul>
+        </div>
+    </li>
+
+</ul>
+<!-- 你的HTML代码 -->
+<script src="static/layui/layui.js"></script>
+<script>
+    //一般直接写在一个js文件中
+    layui.use(['layer', 'form'], function(){
+        var layer = layui.layer,form = layui.form;
+    });
+</script>
+</body>
+</html>
