@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/go/src/DocHub/DocHub.iml" filepath="$USER_HOME$/go/src/DocHub/DocHub.iml" />
       <module fileurl="file://$USER_HOME$/go/src/basic-beego/basic-beego.iml" filepath="$USER_HOME$/go/src/basic-beego/basic-beego.iml" />
+      <module fileurl="file://$USER_HOME$/go/src/basic-gin/basic-gin.iml" filepath="$USER_HOME$/go/src/basic-gin/basic-gin.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-grammar.iml" filepath="$PROJECT_DIR$/basic-grammar.iml" />
       <module fileurl="file://$PROJECT_DIR$/../basic-web/basic-web.iml" filepath="$PROJECT_DIR$/../basic-web/basic-web.iml" />
     </modules>

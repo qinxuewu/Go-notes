@@ -1,13 +1,30 @@
 package main
 
-import "github.com/gin-gonic/gin"
-
- // gin  入门
+import (
+	router "basic-gin/routers"
+	"net/http"
+	"time"
+)
+ // gin  入门    https://www.cnblogs.com/-beyond/p/9391892.html
 func main()  {
-	// http://localhost:8080/ping  默认端口8080
-	r:=gin.Default()
-	r.GET("/ping", func(c *gin.Context) {
-			c.JSON(200,gin.H{"code":200,"msg":"gin实现http接口"})
-	})
-	r.Run()
+	//路由部分
+	router:=router.InitRouter()
+	//静态资源
+	router.Static("/static", "./static")
+
+	//运行的端口
+	//router.Run(":8088")
+
+	// 自定义HTTP配置
+	//http.ListenAndServe(":8088",router)
+
+	// 或
+	s:=&http.Server{
+		Addr:":8088",
+		Handler:router,
+		ReadTimeout:10 * time.Second,  //读取超时时间
+		WriteTimeout:10 * time.Second, //写超时时间
+		MaxHeaderBytes: 1<< 20,  // 最大字节数 十进制的1048576字节
+	}
+	s.ListenAndServe()
 }
