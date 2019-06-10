@@ -1,23 +1,23 @@
 package routers
 
 import (
-	"github.com/gin-gonic/gin"
 	. "basic-gin/controllers"
-	"io"
-	"os"
+	"github.com/gin-gonic/gin"
+	"log"
+	"net/http"
 )
 
 //
 func InitRouter() *gin.Engine{
 
 	//gin.DisableConsoleColor()    //禁用日志的颜色
-
-
 	//gin.ForceConsoleColor()    //  Force log's color
 
-	//创建日志文件
-	f,_:=os.Create("gin.log")
-	gin.DefaultWriter=io.MultiWriter(f)
+	//
+	////如何写日志文件
+	//f,_:=os.Create("gin.log")
+	//gin.DefaultWriter=io.MultiWriter(f)
+
 
 
 	router := gin.Default()
@@ -50,5 +50,51 @@ func InitRouter() *gin.Engine{
 
 	// http://localhost:8088/someJSON
 	router.GET("/someJSON",AscJson)
+
+
+	// 定义路由日志的格式
+	gin.DebugPrintRouteFunc = func(httpMethod, absolutePath, handlerName string, nuHandlers int) {
+		log.Printf("endpoint %v %v %v %v\n", httpMethod, absolutePath, handlerName, nuHandlers)
+	}
+	router.GET("/status", func(c *gin.Context) {
+		c.JSON(http.StatusOK, "ok")
+	})
+
+	// http://localhost:8088/longAsync
+	router.GET("/longAsync", LongAsync)
+	// http://localhost:8088/loandSync
+	router.GET("/loandSync", LoandSync)
+
+	// 分组路由
+
+	// Simple group: v1
+	v1 := router.Group("/v1")
+	{
+		v1.GET("/login", LoginEndpointV1)
+		v1.GET("/longAsync", LongAsync)
+
+	}
+	// Simple group: v2
+	v2 := router.Group("/v2")
+	{
+		v2.GET("/login", LoginEndpointV2)
+		v2.GET("/loandSync", LoandSync)
+
+	}
+
+	router.GET("/showJsonp",ShowHtmlJSONP)
+	router.GET("/JSONP",JsonP)
+
+	//  请求地址： http://localhost:8088/post?ids[a]=1234&ids[b]=hello
+	//  参数 ：names[first]=thinkerou&names[second]=tianou
+	router.POST("/post",GetMap)
+
+
+	// 获取请求路径中的参数
+	// http://localhost:8088/user/qxw, http://localhost:8088/user/shasha
+	router.GET("/user/:name",GetParam)
+
+	// http://localhost:8088/user/john/ddd
+	router.GET("/user/:name/*action",GetParam2)
 	return router
 }

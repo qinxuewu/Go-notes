@@ -9,6 +9,8 @@ import (
 func main()  {
 	//路由部分
 	router:=router.InitRouter()
+
+
 	//静态资源
 	router.Static("/static", "./static")
 
@@ -28,3 +30,4 @@ func main()  {
 	}
 	s.ListenAndServe()
 }
+
