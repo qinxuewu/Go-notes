@@ -19,7 +19,7 @@ Go 初学者的学习笔记
 - [x] 错误处理，调试和测试
 - [x] 部署与维护
 - [x] beego　
-- [gin] beego　
+- [x] gin　
 
 ## 学习地址
 - [Go 初学者成长之路](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/new_gopher_tips.md)
