@@ -75,3 +75,27 @@ func GetParam2(c *gin.Context)  {
 	action := c.Param("action")
 	c.JSON(http.StatusOK,gin.H{"code":200,"name":name,"action":action})
 }
+
+
+// Query and post form  获取请求参数 根据key
+
+func GetKeyValue(c *gin.Context)  {
+
+	// Query 获取请求地址后面的参数
+	id := c.Query("id")
+	//为空 默认值0
+	page := c.DefaultQuery("page", "0")
+
+	// 获取post请求的参数 key :value
+	name := c.PostForm("name")
+	message := c.PostForm("message")
+
+	c.JSON(http.StatusOK,gin.H{"code":200,"id":id,"page":page,"name":name,"messages":message})
+}
+
+func WelCome(c *gin.Context)  {
+	//获取指定的key的值  为空则设置默认值
+	firstname := c.DefaultQuery("firstname", "默认值")
+	lastname := c.Query("lastname")
+	c.String(http.StatusOK, "Hello %s %s", firstname, lastname)
+}

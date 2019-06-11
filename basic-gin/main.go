@@ -2,6 +2,8 @@ package main
 
 import (
 	router "basic-gin/routers"
+	"github.com/gin-gonic/gin"
+	"log"
 	"net/http"
 	"time"
 )
@@ -9,7 +11,20 @@ import (
 func main()  {
 	//路由部分
 	router:=router.InitRouter()
+	router.LoadHTMLGlob("views/*")
+	//使用中间件
+	router.Use(gin.Logger())
+	router.Use(gin.Recovery())
 
+	//如何写日志文件
+
+	//f,_:=os.Create("gin.log")
+	//gin.DefaultWriter=io.MultiWriter(f)
+
+	// 定义路由日志的格式
+	gin.DebugPrintRouteFunc = func(httpMethod, absolutePath, handlerName string, nuHandlers int) {
+		log.Printf("endpoint %v %v %v %v\n", httpMethod, absolutePath, handlerName, nuHandlers)
+	}
 
 	//静态资源
 	router.Static("/static", "./static")

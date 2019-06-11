@@ -1,10 +1,11 @@
 package controllers
+
 import (
-	"github.com/gin-gonic/gin"
-	"net/http"
-	"fmt"
-	"log"
 	. "basic-gin/controllers/dto"
+	"fmt"
+	"github.com/gin-gonic/gin"
+	"log"
+	"net/http"
 	"time"
 )
 
@@ -111,4 +112,23 @@ func GetMap(c *gin.Context)  {
 	names := c.PostFormMap("names")
 	fmt.Printf("ids: %v; names: %v", ids, names)
 	c.JSON(http.StatusOK,gin.H{"code":200,"ids":ids,"names":names})
+}
+
+// 字符进行编码
+func PureJSON(c *gin.Context)  {
+	c.PureJSON(200, gin.H{
+		"html": "<b>Hello, world!</b>",
+	})
+}
+
+//  设置并获取cookie
+func SetGetCookie(c *gin.Context)  {
+	cookie, err := c.Cookie("gin_cookie")
+	if err != nil {
+		cookie = "没获取到gin_cookie 设置cookie"
+		c.SetCookie("gin_cookie", "qinxuewu ", 3600, "/", "localhost", false, true)
+	}
+
+	fmt.Printf("Cookie value: %s \n", cookie)
+	c.JSON(http.StatusOK,gin.H{"code":200,"msg":cookie})
 }

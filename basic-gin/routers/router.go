@@ -3,25 +3,13 @@ package routers
 import (
 	. "basic-gin/controllers"
 	"github.com/gin-gonic/gin"
-	"log"
 	"net/http"
 )
 
 //
 func InitRouter() *gin.Engine{
 
-	//gin.DisableConsoleColor()    //禁用日志的颜色
-	//gin.ForceConsoleColor()    //  Force log's color
-
-	//
-	////如何写日志文件
-	//f,_:=os.Create("gin.log")
-	//gin.DefaultWriter=io.MultiWriter(f)
-
-
-
 	router := gin.Default()
-	router.LoadHTMLGlob("views/*")
 
 
 	//Hello World
@@ -51,11 +39,6 @@ func InitRouter() *gin.Engine{
 	// http://localhost:8088/someJSON
 	router.GET("/someJSON",AscJson)
 
-
-	// 定义路由日志的格式
-	gin.DebugPrintRouteFunc = func(httpMethod, absolutePath, handlerName string, nuHandlers int) {
-		log.Printf("endpoint %v %v %v %v\n", httpMethod, absolutePath, handlerName, nuHandlers)
-	}
 	router.GET("/status", func(c *gin.Context) {
 		c.JSON(http.StatusOK, "ok")
 	})
@@ -96,5 +79,52 @@ func InitRouter() *gin.Engine{
 
 	// http://localhost:8088/user/john/ddd
 	router.GET("/user/:name/*action",GetParam2)
+
+	//http://localhost:8088/pureJson
+	router.GET("/pureJson",PureJSON)
+
+
+	// http://localhost:8088/getKeyValue?id=1234&page=1
+	router.POST("/getKeyValue",GetKeyValue)
+
+	// http://localhost:8088/welCome?firstname=qxw&lastname=aaaaa
+	router.GET("/welCome",WelCome)
+
+
+	//重定向  http://localhost:8088/redirect?status=0
+	router.GET("/redirect", func(c *gin.Context) {
+		status:=c.DefaultQuery("status","0")
+		if status=="0" {
+			c.Redirect(http.StatusMovedPermanently, "https://blog.qinxuewu.club/")
+		}else {
+			c.Request.URL.Path = "/test2"
+			router.HandleContext(c)
+		}
+	})
+	router.GET("/test2", func(c *gin.Context) {
+		c.JSON(200, gin.H{"hello": "world"})
+	})
+
+
+	// 设置并获取cookie  http://localhost:8088/cookie
+	router.GET("/cookie",SetGetCookie)
+
+	// 文件上传  http://localhost:8088/fileHtml
+	router.GET("/fileHtml",FileHtml)
+	router.POST("/upload",UploadFile)
+
+
+	// Group using gin.BasicAuth() middleware
+	// gin.Accounts is a shortcut for map[string]string
+	authorized := router.Group("/admin", gin.BasicAuth(gin.Accounts{
+		"foo":    "bar",
+		"austin": "1234",
+		"lena":   "hello2",
+		"manu":   "4321",
+	}))
+
+
+	//访问链接弹出账号密码登录框   http://localhost:8088/admin/secrets
+	authorized.GET("/secrets",BasicAuth)
 	return router
 }
