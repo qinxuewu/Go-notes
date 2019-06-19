@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="02f787c0-dc10-43e1-b8e3-59cb1a12808e" name="Default" comment="go基础,并发的使用">
       <change afterPath="$USER_HOME$/go/src/DocHub/DocHub.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/go/src/DocHub/models/AdminModel.go" beforeDir="false" afterPath="$USER_HOME$/go/src/DocHub/models/AdminModel.go" afterDir="false" />
+      <change beforePath="$USER_HOME$/go/src/DocHub/models/Models.go" beforeDir="false" afterPath="$USER_HOME$/go/src/DocHub/models/Models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-web/src/beego.orm/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../basic-web/src/beego.orm/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-web/src/mysql/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../basic-web/src/mysql/main.go" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,55 +58,72 @@
         <counts>
           <entry key="Dockerfile" value="1" />
           <entry key="conf" value="10" />
-          <entry key="example" value="1" />
-          <entry key="go" value="317" />
+          <entry key="example" value="4" />
+          <entry key="gitignore" value="1" />
+          <entry key="go" value="580" />
           <entry key="groovy" value="1" />
-          <entry key="html" value="9" />
-          <entry key="js" value="2" />
-          <entry key="log" value="3" />
-          <entry key="md" value="2" />
+          <entry key="html" value="17" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="6" />
+          <entry key="json" value="1" />
+          <entry key="log" value="4" />
+          <entry key="md" value="5" />
+          <entry key="mod" value="5" />
+          <entry key="sum" value="1" />
           <entry key="tmpl" value="2" />
           <entry key="tpl" value="14" />
-          <entry key="txt" value="3" />
+          <entry key="txt" value="5" />
           <entry key="xml" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="317" />
-          <entry key="HTML" value="9" />
-          <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="DTD" value="5" />
+          <entry key="Go" value="580" />
+          <entry key="HTML" value="17" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="6" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="1" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="31" />
-          <entry key="go" value="5005" />
-          <entry key="html" value="188" />
+          <entry key="go" value="7246" />
+          <entry key="html" value="225" />
+          <entry key="mod" value="3" />
           <entry key="tpl" value="34" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="5005" />
-          <entry key="HTML" value="188" />
+          <entry key="DTD" value="3" />
+          <entry key="Go" value="7246" />
+          <entry key="HTML" value="225" />
           <entry key="PLAIN_TEXT" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.go.postfix.template.usages.trigger">
@@ -114,32 +134,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/go/src/basic-gin/controllers/MainController.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#20#115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/go/src/basic-gin/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-              <folding>
-                <element signature="e#14#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,21 +148,20 @@
     <findStrings>
       <find>RestController</find>
       <find>QueryTable</find>
+      <find>RegisterDataBase</find>
+      <find>getTable</find>
+      <find>models</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\admin\go\src\basic-beego</dir>
+      <dir>C:\Users\admin\go\src\basic-gin\test</dir>
     </dirStrings>
   </component>
   <component name="GOROOT" path="F:/golang/go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/go/src/DocHub" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/go/src/pipe" />
   </component>
   <component name="GoLibraries">
-    <option name="urls">
-      <list>
-        <option value="file://$USER_HOME$/go" />
-      </list>
-    </option>
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="GradleLocalSettings">
@@ -180,29 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/interface/test1/test1.go" />
-        <option value="$PROJECT_DIR$/src/interface/test2/test2.go" />
-        <option value="$PROJECT_DIR$/src/interface/test3/test3.go" />
-        <option value="$PROJECT_DIR$/src/interface/test4/test4.go" />
-        <option value="$PROJECT_DIR$/src/interface/test4/main.go" />
-        <option value="$PROJECT_DIR$/src/interface/test5/test5.go" />
-        <option value="$PROJECT_DIR$/src/interface/test6.go" />
-        <option value="$PROJECT_DIR$/src/interface/test6/test6.go" />
-        <option value="$PROJECT_DIR$/src/goroutine/mian.go" />
-        <option value="$PROJECT_DIR$/src/goroutine/main.go" />
-        <option value="$PROJECT_DIR$/src/goroutine/channels/main.go" />
-        <option value="$PROJECT_DIR$/src/goroutine/buffered/buffered.go" />
-        <option value="$PROJECT_DIR$/src/goroutine/select/main.go" />
-        <option value="$PROJECT_DIR$/../basic-beego/controllers/default.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/controllers/sinatra.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/controllers/rest.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/controllers/cms.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/controllers/base.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/views/index.tpl" />
-        <option value="$PROJECT_DIR$/../basic-web/src/rest/restful.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/controllers/json.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/controllers/object.go" />
-        <option value="$USER_HOME$/go/src/basic-beego/controllers/validation.go" />
         <option value="$USER_HOME$/go/src/basic-beego/validation.go" />
         <option value="$USER_HOME$/go/src/basic-beego/controllers/error.go" />
         <option value="$USER_HOME$/go/src/basic-beego/views/404.tpl" />
@@ -228,9 +199,32 @@
         <option value="$USER_HOME$/go/src/basic-gin/templates/index.tmpl" />
         <option value="$USER_HOME$/go/src/basic-gin/views/index.html" />
         <option value="$USER_HOME$/go/src/basic-gin/dto/Dto.go" />
-        <option value="$USER_HOME$/go/src/basic-gin/routers/router.go" />
+        <option value="$USER_HOME$/go/src/basic-gin/utils/LoggerUtil.go" />
+        <option value="$USER_HOME$/go/src/basic-gin/views/jsonp.html" />
+        <option value="$USER_HOME$/go/src/basic-gin/controllers/ModelBindingController.go" />
+        <option value="$USER_HOME$/go/src/basic-gin/test/MultipleServiceTest.go" />
         <option value="$USER_HOME$/go/src/basic-gin/controllers/MainController.go" />
+        <option value="$USER_HOME$/go/src/basic-gin/views/file.html" />
+        <option value="$USER_HOME$/go/src/basic-gin/controllers/FileController.go" />
+        <option value="$USER_HOME$/go/src/basic-gin/controllers/BasicAuthController.go" />
         <option value="$USER_HOME$/go/src/basic-gin/main.go" />
+        <option value="$USER_HOME$/go/src/basic-gin/routers/router.go" />
+        <option value="$USER_HOME$/go/src/basic-gin/test/GinTest.go" />
+        <option value="$PROJECT_DIR$/../basic-xorm-go-mod/go.mod" />
+        <option value="$PROJECT_DIR$/../basic-xorm-go-mod/main.go" />
+        <option value="$PROJECT_DIR$/../basic-xorm-go-mod/datasource/Test1.go" />
+        <option value="$USER_HOME$/go/src/basic-gin/xorm/Test1.go" />
+        <option value="$USER_HOME$/go/src/go_movie/mian.go" />
+        <option value="$PROJECT_DIR$/../basic-web/src/beego.orm/main.go" />
+        <option value="$USER_HOME$/go/src/DocHub/models/Models.go" />
+        <option value="$USER_HOME$/go/src/DocHub/models/AdminModel.go" />
+        <option value="$PROJECT_DIR$/../basic-web/src/mysql/main.go" />
+        <option value="$USER_HOME$/go/src/go_movie/routers/router.go" />
+        <option value="$USER_HOME$/go/src/go_movie/controllers/MainController.go" />
+        <option value="$USER_HOME$/go/src/go_movie/models/VideoModel.go" />
+        <option value="$USER_HOME$/go/src/go_movie/models/AdminModel.go" />
+        <option value="$USER_HOME$/go/src/go_movie/main.go" />
+        <option value="$USER_HOME$/go/src/go_movie/models/Models.go" />
       </list>
     </option>
   </component>
@@ -255,11 +249,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="813" />
-    <option name="y" value="102" />
-    <option name="width" value="1469" />
-    <option name="height" value="894" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="41" />
+    <option name="width" value="1879" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -294,12 +287,12 @@
           <expand>
             <path>
               <item name="basic-grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-gin" type="462c0819:PsiDirectoryNode" />
+              <item name="go_movie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-gin" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="go_movie" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,13 +308,13 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559793311491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560926829791" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/go/src/basic-gin" />
+    <property name="last_opened_file_path" value="$USER_HOME$/go/src/pipe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -330,19 +323,19 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\go\src\basic-gin\views" />
-      <recent name="C:\Users\admin\go\src\basic-gin\controllers" />
-      <recent name="C:\Users\admin\go\src\basic-gin\templates" />
-      <recent name="C:\Users\admin\go\src\basic-beego\views" />
-      <recent name="C:\Users\admin\go\src\basic-beego" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\go\src\basic-gin\test" />
       <recent name="C:\Users\admin\go\src\basic-gin\controllers" />
       <recent name="$PROJECT_DIR$/src/method" />
       <recent name="$PROJECT_DIR$/src/struct" />
       <recent name="$PROJECT_DIR$/src/processes" />
-      <recent name="$PROJECT_DIR$/src/slice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\go\src\go_movie\views" />
+      <recent name="C:\Users\admin\go\src\go_movie\models" />
+      <recent name="C:\Users\admin\go\src\go_movie\controllers" />
+      <recent name="C:\Users\admin\go\src\go_movie\routers" />
+      <recent name="C:\Users\admin\go\src\basic-gin\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,34 +350,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build Models.go">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="go build BindFrom.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GinTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basic-gin" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$USER_HOME$/go/src/basic-gin/BindFrom.go" />
+      <filePath value="$USER_HOME$/go/src/basic-gin/test/GinTest.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build BindHtml.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basic-gin" />
+    <configuration name="go build Models.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_movie" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$USER_HOME$/go/src/basic-gin/BindHtml.go" />
+      <filePath value="$USER_HOME$/go/src/go_movie/models/Models.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build binduri.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basic-gin" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$USER_HOME$/go/src/basic-gin/binduri.go" />
+      <filePath value="$USER_HOME$/go/src/basic-gin/xorm/Test1.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -397,10 +390,10 @@
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basic-gin" />
+      <module name="basic-xorm-go-mod" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/../basic-gin/main.go" />
+      <filePath value="$PROJECT_DIR$/../basic-xorm-go-mod/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -430,19 +423,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.hello" />
-      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go (1)" />
-      <item itemvalue="Go Build.go build binduri.go" />
-      <item itemvalue="Go Build.go build BindFrom.go" />
-      <item itemvalue="Go Build.go build BindHtml.go" />
+      <item itemvalue="Go Build.go build GinTest.go" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build Test1.go" />
+      <item itemvalue="Go Build.go build Models.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Models.go" />
+        <item itemvalue="Go Build.go build Test1.go" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build BindHtml.go" />
-        <item itemvalue="Go Build.go build BindFrom.go" />
-        <item itemvalue="Go Build.go build binduri.go" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build GinTest.go" />
       </list>
     </recent_temporary>
   </component>
@@ -469,6 +462,15 @@
       <workItem from="1559612599110" duration="23523000" />
       <workItem from="1559700623430" duration="12368000" />
       <workItem from="1559788259431" duration="5045000" />
+      <workItem from="1559798804567" duration="6028000" />
+      <workItem from="1560133244229" duration="17768000" />
+      <workItem from="1560216885537" duration="15648000" />
+      <workItem from="1560320456014" duration="4977000" />
+      <workItem from="1560334043994" duration="1531000" />
+      <workItem from="1560336763613" duration="366000" />
+      <workItem from="1560757652838" duration="10793000" />
+      <workItem from="1560831530971" duration="1307000" />
+      <workItem from="1560925913099" duration="894000" />
     </task>
     <task id="LOCAL-00001" summary="go基础,并发的使用">
       <created>1555991867355</created>
@@ -495,13 +497,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83883000" />
+    <option name="totallyTimeSpent" value="143195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="813" y="102" width="1469" height="894" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21149752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -510,16 +511,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.5401575" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" weight="0.119553074" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36850393" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24693042" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.036871508" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3039106" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2658228" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.032348804" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015625" side_tool="true" weight="0.2711111" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -533,39 +534,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="SciView" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21149752" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.5401575" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36850393" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2537517" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.036871508" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3039106" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="bottom" id="Tail" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32982457" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="SciView" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -583,294 +551,292 @@
     <MESSAGE value="beego框架学习" />
     <option name="LAST_COMMIT_MESSAGE" value="beego框架学习" />
   </component>
+  <component name="VgoProject">
+    <proxy>direct</proxy>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/go/src/DocHub/TODO.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$USER_HOME$/go/src/github.com/astaxie/beego/orm/models_boot.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="305" column="25" selection-start-line="305" selection-start-column="19" selection-end-line="305" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/conf/app.conf.example">
+    <entry file="file://$USER_HOME$/go/src/DocHub/vendor/github.com/astaxie/beego/orm/db.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/helper/conv/conv.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="298">
+          <caret line="511" column="32" selection-start-line="511" selection-start-column="32" selection-end-line="511" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/helper/crawl/crawl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/helper/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1102">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/helper/convert.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/TruthHun/DocHub/controllers/HomeControllers/ErrorsController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/routergroup.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-gin/apiExamples.go" />
-    <entry file="file://$PROJECT_DIR$/../basic-gin/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/TruthHun/DocHub/helper/logs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/controllers/AdminControllers/AdController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/controllers/AdminControllers/BannerController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/dictionary/dictionary.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/views/Admin/default/Ad/index.html">
+    <entry file="file://$USER_HOME$/go/src/DocHub/vendor/github.com/astaxie/beego/orm/db_alias.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="159" column="33" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../basic-web/src/form/login.go">
+    <entry file="file://$USER_HOME$/go/src/github.com/astaxie/beego/orm/db_alias.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1370" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-gin/index.html" />
-    <entry file="file://$USER_HOME$/go/src/basic-beego/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="206" column="5" selection-start-line="206" selection-start-column="5" selection-end-line="206" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-gin/BindFrom.go" />
-    <entry file="file://$USER_HOME$/go/src/basic-gin/BindHtml.go" />
-    <entry file="file://$USER_HOME$/go/src/basic-gin/BindUrii.go" />
-    <entry file="file://$USER_HOME$/go/src/basic-gin/controllers/BindFromController.go">
+    <entry file="file://$USER_HOME$/go/src/DocHub/models/Models.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="203">
+          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-gin/templates/index.tmpl" />
-    <entry file="file://$USER_HOME$/go/src/basic-beego/controllers/html.go">
+    <entry file="file://$USER_HOME$/go/src/DocHub/models/BannerModel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="380">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/golang/go/src/html/template/template.go">
+    <entry file="file://$USER_HOME$/go/src/DocHub/models/AdminModel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="371" selection-start-line="371" selection-end-line="371" />
+        <state relative-caret-position="190">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/gin.go">
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/beego.orm/test02/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="193" column="37" lean-forward="true" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
+        <state relative-caret-position="228">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../basic-web/src/escape/main.go">
+    <entry file="file://$USER_HOME$/go/src/DocHub/models/PagesModel.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/main.go">
+    <entry file="file://$USER_HOME$/go/src/DocHub/models/SearchLogModel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="285">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/models/models.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-beego/routers/commentsRouter_controllers.go">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../basic-web/src/beego.orm/main.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-gin/views/index.tmpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/golang/go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="680" selection-start-line="680" selection-end-line="680" />
+        <state relative-caret-position="361">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/DocHub/models/CoinLogModel.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/DocHub/models/ElasticSearchModel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/go/src/DocHub/models/ConfigModel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1596" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/models/PagesModel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="19">
+          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/models/RemarkModel.go">
+    <entry file="file://$USER_HOME$/go/src/DocHub/models/SuggestModel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/models/AdminModel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/controllers/HomeControllers/CollectController.go">
+    <entry file="file://$USER_HOME$/go/src/go_movie/models/AdminModel.go" />
+    <entry file="file://$USER_HOME$/go/src/go_movie/models/VideoModel.go" />
+    <entry file="file://$USER_HOME$/go/src/go_movie/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1256" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/controllers/HomeControllers/ReportController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="494">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/controllers/HomeControllers/SearchController.go">
+    <entry file="file://$USER_HOME$/go/src/basic-gin/test/GinTest.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state>
+          <caret column="12" selection-start-column="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/controllers/AdminControllers/BaseController.go">
+    <entry file="file://$USER_HOME$/go/src/github.com/jinzhu/gorm/model_struct.go" />
+    <entry file="file://F:/golang/go/src/time/time.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1824" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/models/WordModel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/DocHub/models/Utils.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-gin/controllers/dto/Dto.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="217">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-gin/views/index.html">
+    <entry file="file://F:/golang/go/src/database/sql/sql.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="614">
+          <caret line="864" column="14" selection-start-line="864" selection-start-column="14" selection-end-line="864" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/logger.go">
+    <entry file="file://$PROJECT_DIR$/../basic-web/src/mysql/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-gin/controllers/MainController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#20#115#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/go/src/basic-gin/routers/router.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="209">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-gin/gin.log">
+    <entry file="file://$USER_HOME$/go/src/basic-gin/controllers/MainController.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="494">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/basic-gin/main.go">
+    <entry file="file://$PROJECT_DIR$/src/array/arrayTest.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="504">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/go_movie/controllers/MainController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
-            <element signature="e#14#52#0" expanded="true" />
+            <element signature="e#21#72#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/go_movie/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/go_movie/models/Models.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/changelogs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/main.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/.header.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/.header.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/model/archive.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/model/confs.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/model/article.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/service/archivesrv.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/controller/accountctl.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/controller/console/accountctl.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/controller/archivectl.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="e#780#994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/controller/blogmidware.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="254" column="54" selection-start-line="252" selection-start-column="12" selection-end-line="254" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/controller/feedctl.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/cron/cron.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/cron/pushcron.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/cron/recommendcron.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/controller/commentctl.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/controller/pjaxmidware.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/pipe/controller/tagctl.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -927,7 +893,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>basic-gin</last-edited>
+          <last-edited>pipe</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

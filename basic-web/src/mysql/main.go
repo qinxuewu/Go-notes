@@ -10,8 +10,7 @@ import (
 func main()  {
 	db,err:=sql.Open("mysql","root:870439570@tcp(39.108.144.143:3306)/test2?charset=utf8")
 	checkErr(err)
-
-
+	
 	//插入数据
 	stmt, err := db.Prepare("INSERT INTO userinfo SET username=?,department=?,created=?")
 	checkErr(err)
