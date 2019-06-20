@@ -7,6 +7,7 @@
 - [x] 【basic-web】Go的Web编程快速入门demo
 - [x] 【basic-beego】beego框架学习demo
 - [x] 【basic-gin】gin框架学习demo
+- [x] 【Day01】使用goquery爬取采集站全网VIP影视资源在线观看
 
 ## 参考学习地址
 - [Go 初学者成长之路](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/new_gopher_tips.md)
