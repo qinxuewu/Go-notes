@@ -20,6 +20,7 @@ type Users struct {
 
 
 
+
 func main()  {
 	dbs,_:=gorm.Open("mysql", "root:870439570@tcp(39.108.144.143:3306)/test?charset=utf8&parseTime=True&loc=Local")
 	defer dbs.Close()
@@ -43,9 +44,10 @@ func main()  {
 	dbs.Last(&user)
 	fmt.Println("获取最后一条记录，按主键排序:",user)
 	//// SELECT * FROM users ORDER BY id DESC LIMIT 1;
-
+	users := []Users{}
 	// 获取所有记录
-	dbs.Find(&user)
+	dbs.Find(&users)
+	fmt.Println("获取所有记录: ",users)
 	//// SELECT * FROM users;
 
 
@@ -63,12 +65,17 @@ func main()  {
 
 func where(db *gorm.DB)  {
 	user := Users{}
+	users := []Users{}
 	// 获取第一个匹配记录
 	db.Where("name = ?", "jinzhu").First(&user)
 	//// SELECT * FROM users WHERE name = 'jinzhu' limit 1;
 
 	// 获取所有匹配记录
-	db.Where("name = ?", "jinzhu").Find(&user)
+	db.Where("name = ?", "jinzhu").Find(&users)
+	for i, v := range users {
+		fmt.Println("index :", i, v.Name)
+	}
+
 	fmt.Println("获取所有匹配记录  :",user)
 	//// SELECT * FROM users WHERE name = 'jinzhu';
 
