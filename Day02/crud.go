@@ -63,7 +63,8 @@ func main()  {
 	//WhereOr(dbs)
 	//WHereLinkd(dbs)
 	//WhereSet(dbs)
-	WhereFirstOrInit(dbs)
+	//WhereFirstOrInit(dbs)
+	WhereAttrs(dbs)
 }
 
 func Where(db *gorm.DB)  {
@@ -214,13 +215,16 @@ func WhereFirstOrInit(db *gorm.DB)  {
 	user := Users{}
 	// 未查询导数据 则返回指定的初始化数据
 	db.FirstOrInit(&user,Users{Name:"non_existing"})
+	fmt.Println(user)
 	// user -> User{Name: "non_existing"}
 
    //  查询有返回数据 则直接返回
 	db.Where(Users{Name:"jinzhu"}).FirstOrInit(&user)
+	fmt.Println(user)
 	// user -> User{Id: 111, Name: "Jinzhu", Age: 20}
 
 	db.FirstOrInit(&user, map[string]interface{}{"name": "jinzhu"})
+	fmt.Println(user)
 	// user -> User{Id: 111, Name: "Jinzhu", Age: 20}
 }
 
@@ -426,4 +430,57 @@ func SaveUpdate(db *gorm.DB)  {
 	db.Model(&user).Omit("name").Updates(map[string]interface{}{"name": "hello", "age": 18})
 	// UPDATE users SET age=18  WHERE id=111;
 
+
+	// 更新更改字段但不进行Callbacks
+	// 更新多个属性，与“更新”类似
+	db.Model(&user).UpdateColumns(Users{Name: "hello", Age: 18})
+	// UPDATE users SET name='hello', age=18 WHERE id = 111;
+
+
+
+
+
+}
+
+// 指定表名
+func WhereTable(db *gorm.DB)  {
+
+	//  使用User结构定义创建`deleted_users`表
+	user := Users{}
+	db.Table("deleted_users").CreateTable(&user)
+
+	var deleted_users []Users
+	db.Table("deleted_users").Find(&deleted_users)
+	// SELECT * FROM deleted_users;
+
+	//  Batch Updates 批量更新
+	db.Table("users").Where("id IN (?)",[]int{10,11}).Update(map[string]interface{}{"name":"hello","age":18})
+	// UPDATE users SET name='hello', age=18 WHERE id IN (10, 11);
+
+
+	// 使用struct更新仅适用于非零值，或使用map[string]interface{}
+	db.Model(Users{}).Updates(Users{Name: "hello", Age: 18})
+	// UPDATE users SET name='hello', age=18;
+
+	// 使用`RowsAffected`获取更新记录计数
+	count:=db.Model(Users{}).Update(Users{Name:"hello",Age:15}).RowsAffected
+	fmt.Println(count)
+
+	// 批量删除
+	db.Where("email LIke ?","%jinzhu%").Delete(Users{})
+	db.Delete(Users{}, "email LIKE ?", "%jinzhu%")
+	// DELETE from emails where email LIKE "%jinhu%";
+
+
+	// 软删除 如果模型有DeletedAt字段，它将自动获得软删除功能！
+	db.Delete(&user)
+	// UPDATE users SET deleted_at="2013-10-29 10:23" WHERE id = 111;
+
+	// 批量删除
+	db.Where("age = ?", 20).Delete(&Users{})
+	// UPDATE users SET deleted_at="2013-10-29 10:23" WHERE age = 20;
+
+	// 软删除的记录将在查询时被忽略
+	db.Where("age = 20").Find(&user)
+	// SELECT * FROM users WHERE age = 20 AND deleted_at IS NULL;
 }
