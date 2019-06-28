@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config>
+    <host>127.0.0.1</host>
+    <port>3306</port>
+    <user>root</user>
+    <pwd>123456</pwd>
+    <dbname>test</dbname>
+</Config>
