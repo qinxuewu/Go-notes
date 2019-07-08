@@ -9,6 +9,8 @@
 - [x] 【basic-gin】gin框架学习demo
 - [x] 【Day01】使用goquery爬取采集站全网VIP影视资源在线观看
 - [x] 【Day02】golang的gorm库操作mysql
+- [x] 【Day03】golang几种常用配置文件解析
+
 
 ## 参考学习地址
 - [Go 初学者成长之路](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/new_gopher_tips.md)
@@ -17,6 +19,8 @@
 - [Go语言圣经](http://shouce.jb51.net/gopl-zh/ch1/ch1-01.html)
 - [Go语言中文网](https://studygolang.com/topics)
 - [菜鸟教程](https://www.runoob.com/go/go-environment.html)
+- [Teleport](https://github.com/henrylee2cn/teleport/blob/v5/README_ZH.md)一个通用、高效、灵活的Socket框架。
+- [go-micro微服务框架](https://micro.mu/docs/cn/go-micro.html)
 
 
 ## Go开发者社区
