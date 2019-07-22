@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../basic-beego/basic-beego.iml" filepath="$PROJECT_DIR$/../../basic-beego/basic-beego.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../basic-gin/basic-gin.iml" filepath="$PROJECT_DIR$/../basic-gin/basic-gin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../basic-gin/basic-gin.iml" filepath="$PROJECT_DIR$/../../basic-gin/basic-gin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../basic-grammar/basic-grammar.iml" filepath="$PROJECT_DIR$/../basic-grammar/basic-grammar.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/basic-web.iml" filepath="$PROJECT_DIR$/.idea/basic-web.iml" />
     </modules>
   </component>

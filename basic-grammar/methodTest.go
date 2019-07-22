@@ -11,7 +11,6 @@ import (
 	前面两章我们介绍了函数和struct，那你是否想过函数当作struct的字段一样来处理呢？
 	今天我们就讲解一下函数的另一种形态，带有接收者的函数，我们称为method
 
-
 */
 func main() {
 	r1 := Rectanlge{12, 2}

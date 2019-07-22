@@ -13,10 +13,10 @@ func main()  {
 
 
 	//插入数据
-	stmt, err := db.Prepare("INSERT INTO userinfo SET username=?,department=?,created=?")
+	stmt, err := db.Prepare("INSERT INTO user SET name=?")
 	checkErr(err)
 
-	res, err := stmt.Exec("astaxie", "研发部门", "2012-12-09")
+	res, err := stmt.Exec("qxw")
 	checkErr(err)
 
 	id, err := res.LastInsertId()
@@ -70,9 +70,6 @@ func main()  {
 
 
 }
-
-
-
 
 func checkErr(err error) {
 	if err != nil {

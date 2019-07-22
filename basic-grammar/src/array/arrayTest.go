@@ -1,9 +1,7 @@
 package main
-
 import "fmt"
 
 var arr [10]int16 // 声明了一个int类型的数组
-
 func main() {
 
 	//Go之所以会那么简洁，是因为它有一些默认的行为：
