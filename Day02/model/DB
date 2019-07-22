@@ -1,0 +1,37 @@
+package model
+
+import (
+	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"fmt"
+	"os"
+)
+
+// DB 数据库连接
+var DB *gorm.DB
+var ERR error
+
+func initDB() {
+	DB, ERR =gorm.Open("mysql", "root:870439570@tcp(39.108.144.143:3306)/test?charset=utf8&parseTime=True&loc=Local")
+	if ERR != nil {
+		fmt.Println(ERR.Error())
+		os.Exit(-1)
+	}
+
+	// 启用Logger，显示详细日志
+	DB.LogMode(true)
+
+	//  连接池
+	DB.DB().SetMaxIdleConns(10)
+	DB.DB().SetMaxOpenConns(100)
+
+	// 禁用表明负数
+	//DB.SingularTable(true)
+
+}
+
+
+func init() {
+	initDB()
+}
+

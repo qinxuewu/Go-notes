@@ -46,7 +46,6 @@ func main()  {
 	fmt.Printf("ERR: %v\n", err)
 
 
-
 	//删除表
 	//num,err=o.Delete(&u)
 	//fmt.Printf("NUM: %d, ERR: %v\n", num, err)

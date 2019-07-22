@@ -7,6 +7,8 @@
       <module fileurl="file://$USER_HOME$/go/src/basic-gin/basic-gin.iml" filepath="$USER_HOME$/go/src/basic-gin/basic-gin.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-grammar.iml" filepath="$PROJECT_DIR$/basic-grammar.iml" />
       <module fileurl="file://$PROJECT_DIR$/../basic-web/basic-web.iml" filepath="$PROJECT_DIR$/../basic-web/basic-web.iml" />
+      <module fileurl="file://$USER_HOME$/go/src/basic_gorm/basic_gorm.iml" filepath="$USER_HOME$/go/src/basic_gorm/basic_gorm.iml" />
+      <module fileurl="file://$USER_HOME$/go/src/go-common-master/go-common-master.iml" filepath="$USER_HOME$/go/src/go-common-master/go-common-master.iml" />
     </modules>
   </component>
 </project>
