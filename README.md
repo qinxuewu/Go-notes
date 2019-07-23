@@ -10,6 +10,8 @@
 - [x] 【Day01】使用goquery爬取采集站全网VIP影视资源在线观看
 - [x] 【Day02】golang的gorm库操作mysql
 - [x] 【Day03】golang几种常用配置文件解析
+- [x] 【Day04】	gin+grom整合crud实现简单api接口
+- [x] 【Day05】	grpc快速入门
 
 
 ## 参考学习地址
