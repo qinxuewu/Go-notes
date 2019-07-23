@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/../basic-web/basic-web.iml" filepath="$PROJECT_DIR$/../basic-web/basic-web.iml" />
       <module fileurl="file://$USER_HOME$/go/src/basic_gorm/basic_gorm.iml" filepath="$USER_HOME$/go/src/basic_gorm/basic_gorm.iml" />
       <module fileurl="file://$USER_HOME$/go/src/go-common-master/go-common-master.iml" filepath="$USER_HOME$/go/src/go-common-master/go-common-master.iml" />
+      <module fileurl="file://$USER_HOME$/go/src/go-thrift/go-thrift.iml" filepath="$USER_HOME$/go/src/go-thrift/go-thrift.iml" />
+      <module fileurl="file://$USER_HOME$/go/src/grpc-demo/grpc-demo.iml" filepath="$USER_HOME$/go/src/grpc-demo/grpc-demo.iml" />
+      <module fileurl="file://$USER_HOME$/go/src/we-blog/we-blog.iml" filepath="$USER_HOME$/go/src/we-blog/we-blog.iml" />
     </modules>
   </component>
 </project>

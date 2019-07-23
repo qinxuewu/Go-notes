@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package proto;
+
+
+
+message MyRequest {
+     string name = 1;
+}
+
+message MyResponse {
+   string realname = 2;
+}
+
+
+service StudentProtoService {
+    rpc GetName(MyRequest) returns (MyResponse) {  }
+}
+

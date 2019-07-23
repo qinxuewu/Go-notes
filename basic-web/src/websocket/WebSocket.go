@@ -32,6 +32,7 @@ func  Echo(ws *websocket.Conn)  {
 func main()  {
 	http.Handle("/",websocket.Handler(Echo))
 
+	// 指定端口号  1234
 	if err:=http.ListenAndServe(":1234",nil);err !=nil{
 		log.Fatal("ListenAndServe: ",err)
 	}
